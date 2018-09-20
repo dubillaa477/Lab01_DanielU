@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab01_DanielUbilla
 {
-    public class Class1
+    public interface ILogger
     {
+        void Log(string log);
     }
 }
